@@ -3,7 +3,8 @@
         "release": true
     },
     "git": {
-        "commitMessage": "release: v${version}"
+        "commitMessage": "release: v${version}",
+        "tagName": "v${version}"
     },
     "npm": {
         "publish": false
@@ -13,8 +14,8 @@
     },
     "plugins": {
         "@release-it/conventional-changelog": {
-        "preset": "angular",
-        "infile": "CHANGELOG.md"
+            "preset": "angular",
+            "infile": "CHANGELOG.md"
         }
     }
 }
