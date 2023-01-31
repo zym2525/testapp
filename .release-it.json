@@ -4,7 +4,7 @@
     },
     "git": {
         "commitMessage": "${name}release: v${version}",
-        "tagName": "${name}-v${version}"
+        "tagName": "v${version}"
     },
     "npm": {
         "publish": false
